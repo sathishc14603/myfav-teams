@@ -1,0 +1,46 @@
+body{
+    font-family: "Poppins",sans-serif;
+    margin:50px 50px 0 50px;
+    /* background-color: #faf9f6; */
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 3.5rem;
+}
+.teams{
+     display: block;
+     width:100%;
+    font-family: "Poppins",sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+}
+.rcb{
+    width:45%;
+    float:left;
+}
+.csk{
+    width:45%;
+    float:right;
+}
+.rcb img{
+    float:left;
+    width:350px;
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+.csk img{
+    float:left;
+    width:350px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    width:100%
+}
+.img{
+    display:inline;
+}
+@media(max-width:480px){
+    body{
+    width:100%;
+    }
+}
